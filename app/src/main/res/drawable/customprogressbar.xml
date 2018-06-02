@@ -7,6 +7,7 @@
                 <gradient
                     android:endColor="@color/progress_end"
                     android:startColor="@color/progress_init"
+                    android:centerY="1.0"
                     android:angle="180" />
             </shape>
         </clip>
