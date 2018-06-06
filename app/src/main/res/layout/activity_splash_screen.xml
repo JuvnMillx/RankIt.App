@@ -8,16 +8,17 @@
 
     <ProgressBar
         android:id="@+id/progress_bar_splashscreen"
-        android:theme="@style/custom_progressbar_launch"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:indeterminate="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
+        android:indeterminate="false"
+        android:max="100"
         android:progress="0"
-        android:max="100" />
+        android:theme="@style/custom_progressbar_launch" />
 
 </RelativeLayout>
