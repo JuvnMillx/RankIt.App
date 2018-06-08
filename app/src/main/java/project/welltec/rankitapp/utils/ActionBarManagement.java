@@ -11,7 +11,7 @@ public final class ActionBarManagement {
     private static ActionBar myActionBar = null;
     private static LayoutInflater myLayoutInflater = null;
 
-    public static void inflateActionBar(ActionBar actionBar, LayoutInflater layoutInflater){
+    public static void inflateCustomActionBar(ActionBar actionBar, LayoutInflater layoutInflater){
         //Get the default actionbar instance
         myActionBar = actionBar;
         myActionBar.setDisplayShowHomeEnabled(false);
