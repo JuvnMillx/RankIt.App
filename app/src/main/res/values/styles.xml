@@ -15,9 +15,18 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <!-- Custom ProgressBar from SplashScreen -->
     <style name="custom_progressbar_launch" parent="SplashScreenTheme">
         <item name="colorAccent">#E0E0E0</item>
         <item name="android:progressBackgroundTint">#FAFAFA</item>
+    </style>
+
+    <!-- ActionBar customized -->
+    <style name="AppThemeActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:actionBarSize">40dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="android:background">@color/colorPrimary</item>
     </style>
 
 </resources>
